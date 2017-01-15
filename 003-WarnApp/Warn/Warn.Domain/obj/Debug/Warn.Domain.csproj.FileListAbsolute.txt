@@ -1,0 +1,5 @@
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Domain\bin\Debug\Warn.Domain.dll
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Domain\bin\Debug\Warn.Domain.pdb
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Domain\obj\Debug\Warn.Domain.csprojResolveAssemblyReference.cache
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Domain\obj\Debug\Warn.Domain.dll
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Domain\obj\Debug\Warn.Domain.pdb

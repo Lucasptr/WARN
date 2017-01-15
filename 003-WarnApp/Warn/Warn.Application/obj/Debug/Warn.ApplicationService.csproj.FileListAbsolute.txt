@@ -1,0 +1,11 @@
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Application\bin\Debug\Warn.Application.dll
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Application\bin\Debug\Warn.Application.pdb
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Application\bin\Debug\Warn.Data.dll
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Application\bin\Debug\Warn.Domain.dll
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Application\bin\Debug\EntityFramework.dll
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Application\bin\Debug\Warn.Data.pdb
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Application\bin\Debug\Warn.Domain.pdb
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Application\bin\Debug\EntityFramework.xml
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Application\obj\Debug\Warn.ApplicationService.csprojResolveAssemblyReference.cache
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Application\obj\Debug\Warn.Application.dll
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Application\obj\Debug\Warn.Application.pdb
