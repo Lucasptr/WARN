@@ -59,9 +59,11 @@
     <Compile Include="EntityConfig\FeedbackTypeMap.cs" />
     <Compile Include="EntityConfig\MessageTypeMap.cs" />
     <Compile Include="EntityConfig\UserMap.cs" />
+    <Compile Include="IUnityOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Context\WarnContext.cs" />
     <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="UnityOfWork.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

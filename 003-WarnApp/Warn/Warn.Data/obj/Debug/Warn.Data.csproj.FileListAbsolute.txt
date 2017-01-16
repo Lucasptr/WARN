@@ -10,3 +10,17 @@ C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Da
 C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Data\obj\Debug\Warn.Data.csprojResolveAssemblyReference.cache
 C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Data\obj\Debug\Warn.Data.dll
 C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Data\obj\Debug\Warn.Data.pdb
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Debug\Warn.Data.dll.config
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Debug\Warn.Data.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Debug\Warn.Data.pdb
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Debug\EntityFramework.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Debug\Warn.Domain.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Debug\Warn.Domain.pdb
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Debug\EntityFramework.xml
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\obj\Debug\Warn.Data.csprojResolveAssemblyReference.cache
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\obj\Debug\Warn.Data.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\obj\Debug\Warn.Data.pdb
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Debug\Warn.SharedKernel.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Debug\Warn.SharedKernel.pdb

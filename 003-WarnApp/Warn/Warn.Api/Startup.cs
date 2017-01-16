@@ -13,6 +13,7 @@ using Warn.Api.Helpers;
 using Warn.Api.Security;
 using Warn.CrossCutting;
 using Warn.Domain.Interfaces.Service;
+using Warn.SharedKernel.Events;
 
 namespace Warn.Api
 {
@@ -58,7 +59,7 @@ namespace Warn.Api
             DependencyRegister.Register(container);
 
             config.DependencyResolver = new UnityResolverHelper(container);
-            //DomainEvent.Container = new DomainEventsContainer(config.DependencyResolver);
+            DomainEvent.Container = new DomainEventsContainer(config.DependencyResolver);
         }
 
         public void ConfigureOAuth(IAppBuilder app, IUserService userService)
@@ -67,7 +68,7 @@ namespace Warn.Api
             {
                 AllowInsecureHttp = true,
                 TokenEndpointPath = new PathString("/api/security/token"),
-                AccessTokenExpireTimeSpan = TimeSpan.FromDays(2),
+                AccessTokenExpireTimeSpan = TimeSpan.FromDays(1),
                 Provider = new SimpleAuthorizationServerProvider(userService)
             };
 

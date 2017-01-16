@@ -2,6 +2,7 @@ namespace Warn.Domain.Entities
 {
     using System;
     using System.Collections.Generic;
+    using Scopes;
 
     public partial class User
     {
@@ -9,6 +10,15 @@ namespace Warn.Domain.Entities
         {
             Subscribed = new HashSet<Subscribed>();
             Message = new HashSet<Message>();
+        }
+        public User(string login, string password, string name, string email, int phone, int profile)
+        {
+            Login = login;
+            Password = password;
+            Name = name;
+            Email = email;
+            Phone = phone;
+            ProfileID = profile;
         }
 
         public int UserID { get; set; }
@@ -35,5 +45,11 @@ namespace Warn.Domain.Entities
         public virtual ICollection<Message> Message { get; set; }
 
         public virtual Profile Profile { get; set; }
+
+        public void Register()
+        {
+            if (!this.RegisterUserScopeIsValid())
+                return;
+        }
     }
 }
