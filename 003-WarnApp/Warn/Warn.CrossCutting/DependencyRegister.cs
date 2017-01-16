@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Warn.ApplicationService;
+using Warn.Data;
 using Warn.Data.Context;
 using Warn.Data.Repository;
 using Warn.Domain.Interfaces.Repository;
@@ -20,6 +21,7 @@ namespace Warn.CrossCutting
         {
             container.RegisterType<WarnContext, WarnContext>(new HierarchicalLifetimeManager());
             container.RegisterType<IHandler<DomainNotification>, DomainNotificationHandler>(new HierarchicalLifetimeManager());
+            container.RegisterType<IUnityOfWork, UnityOfWork>(new HierarchicalLifetimeManager());
 
             //Repositories
             container.RegisterType<IUserRepository, UserRepository>(new HierarchicalLifetimeManager());

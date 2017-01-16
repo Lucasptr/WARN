@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Warn.Data.Repository;
+﻿using Warn.Data;
 using Warn.Domain.Commands.UserCommands;
 using Warn.Domain.Entities;
 using Warn.Domain.Interfaces.Repository;
@@ -11,11 +6,11 @@ using Warn.Domain.Interfaces.Service;
 
 namespace Warn.ApplicationService
 {
-    public class UserService : IUserService
+    public class UserService : ApplicationService, IUserService
     {
         private IUserRepository _repository;
 
-        public UserService(IUserRepository repository)
+        public UserService(IUserRepository repository, IUnityOfWork unitOfWork) : base(unitOfWork)
         {
             _repository = repository;
         }
@@ -37,7 +32,10 @@ namespace Warn.ApplicationService
 
             _repository.Register(user);
 
-            return user;
+            if (Commit())
+                return user;
+
+            return null;
         }
     }
 }
