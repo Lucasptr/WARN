@@ -35,6 +35,7 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\UserCommands\RegisterUserCommand.cs" />
     <Compile Include="Enitites\Subscribed.cs" />
     <Compile Include="Enitites\Feedback.cs" />
     <Compile Include="Enitites\Group.cs" />
@@ -46,8 +47,14 @@
     <Compile Include="Interfaces\Repository\IUserRepository.cs" />
     <Compile Include="Interfaces\Service\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scopes\UserScopes.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Warn.SharedKernel\Warn.SharedKernel.csproj">
+      <Project>{01670516-af82-42e5-a197-bd595e5d6da0}</Project>
+      <Name>Warn.SharedKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

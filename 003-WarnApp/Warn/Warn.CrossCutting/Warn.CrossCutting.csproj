@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DependencyRegister.cs" />
+    <Compile Include="DomainNotificationHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -74,6 +75,10 @@
     <ProjectReference Include="..\Warn.Domain\Warn.Domain.csproj">
       <Project>{81c608b8-f3be-4c0d-99a6-0f58570f7bc3}</Project>
       <Name>Warn.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Warn.SharedKernel\Warn.SharedKernel.csproj">
+      <Project>{01670516-af82-42e5-a197-bd595e5d6da0}</Project>
+      <Name>Warn.SharedKernel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

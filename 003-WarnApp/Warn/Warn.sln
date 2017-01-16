@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warn.CrossCutting", "Warn.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warn.Api", "Warn.Api\Warn.Api.csproj", "{DC0641C7-7418-4971-AA77-56E3CC61DFF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warn.SharedKernel", "Warn.SharedKernel\Warn.SharedKernel.csproj", "{01670516-AF82-42E5-A197-BD595E5D6DA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{DC0641C7-7418-4971-AA77-56E3CC61DFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC0641C7-7418-4971-AA77-56E3CC61DFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC0641C7-7418-4971-AA77-56E3CC61DFF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01670516-AF82-42E5-A197-BD595E5D6DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01670516-AF82-42E5-A197-BD595E5D6DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01670516-AF82-42E5-A197-BD595E5D6DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01670516-AF82-42E5-A197-BD595E5D6DA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,5 +69,6 @@ Global
 		{86106B62-68EF-43E8-9B8E-E3229F7C8081} = {5C211AD1-46F1-4D78-AEEC-F295BFE66035}
 		{0CD09BCB-8E4E-403E-9DC8-78378E733027} = {3C5B5F2E-8211-4733-B520-1956CCDD25CB}
 		{DC0641C7-7418-4971-AA77-56E3CC61DFF5} = {5BF39205-C1E3-49B2-B2EA-15C8F5B61BA1}
+		{01670516-AF82-42E5-A197-BD595E5D6DA0} = {1BB4989A-D1CC-4D66-8280-A7885E581229}
 	EndGlobalSection
 EndGlobal

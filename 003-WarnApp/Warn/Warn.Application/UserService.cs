@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Warn.Data.Repository;
+using Warn.Domain.Commands.UserCommands;
 using Warn.Domain.Entities;
 using Warn.Domain.Interfaces.Repository;
 using Warn.Domain.Interfaces.Service;
@@ -29,9 +30,14 @@ namespace Warn.ApplicationService
             return _repository.GetUser(login);
         }
 
-        public void Register(User user)
+        public User Register(RegisterUserCommand command)
         {
-            throw new NotImplementedException();
+            var user = new User(command.Login, command.Password, command.Name, command.Email, command.Phone, command.ProfileID);
+            user.Register();
+
+            _repository.Register(user);
+
+            return user;
         }
     }
 }

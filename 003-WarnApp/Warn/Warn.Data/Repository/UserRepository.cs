@@ -25,7 +25,8 @@ namespace Warn.Data.Repository
 
         public void Register(User user)
         {
-            throw new NotImplementedException();
+            _context.User.Add(user);
+            _context.SaveChanges();
         }
 
         public User GetUser(string login)
