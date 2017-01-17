@@ -12,6 +12,7 @@ using Warn.Domain.Interfaces.Repository;
 using Warn.Domain.Interfaces.Service;
 using Warn.SharedKernel;
 using Warn.SharedKernel.Events;
+using Warn.SharedKernel.Helpers.Cryptography;
 
 namespace Warn.CrossCutting
 {
@@ -22,6 +23,7 @@ namespace Warn.CrossCutting
             container.RegisterType<WarnContext, WarnContext>(new HierarchicalLifetimeManager());
             container.RegisterType<IHandler<DomainNotification>, DomainNotificationHandler>(new HierarchicalLifetimeManager());
             container.RegisterType<IUnityOfWork, UnityOfWork>(new HierarchicalLifetimeManager());
+            container.RegisterType<ICryptographyHelper, CryptographyHelper>(new HierarchicalLifetimeManager());
 
             //Repositories
             container.RegisterType<IUserRepository, UserRepository>(new HierarchicalLifetimeManager());

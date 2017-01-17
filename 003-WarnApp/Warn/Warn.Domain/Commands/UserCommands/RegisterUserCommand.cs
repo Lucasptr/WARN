@@ -8,7 +8,7 @@ namespace Warn.Domain.Commands.UserCommands
 {
     public class RegisterUserCommand
     {
-        public RegisterUserCommand(string login, string password, string name, string email, int phone, int profile)
+        public RegisterUserCommand(string login, string password, string name, string email, int? phone, int? profile)
         {
             Login = login;
             Password = password;
@@ -25,7 +25,7 @@ namespace Warn.Domain.Commands.UserCommands
 
         public string Email { get; set; }
 
-        public int Phone { get; set; }
-        public int ProfileID { get; set; }
+        public int? Phone { get; set; }
+        public int? ProfileID { get; set; }
     }
 }

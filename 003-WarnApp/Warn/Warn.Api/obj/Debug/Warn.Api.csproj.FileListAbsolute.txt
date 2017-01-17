@@ -126,3 +126,5 @@ C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Api
 C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Api\obj\Debug\Warn.Api.pdb
 C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Api\bin\Warn.SharedKernel.dll
 C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Api\bin\Warn.SharedKernel.pdb
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Api\bin\Warn.SharedKernel.dll
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.Api\bin\Warn.SharedKernel.pdb

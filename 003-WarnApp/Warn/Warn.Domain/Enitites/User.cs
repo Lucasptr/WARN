@@ -11,7 +11,7 @@ namespace Warn.Domain.Entities
             Subscribed = new HashSet<Subscribed>();
             Message = new HashSet<Message>();
         }
-        public User(string login, string password, string name, string email, int phone, int profile)
+        public User(string login, string password, string name, string email, int? phone, int? profile)
         {
             Login = login;
             Password = password;
@@ -19,9 +19,11 @@ namespace Warn.Domain.Entities
             Email = email;
             Phone = phone;
             ProfileID = profile;
+            CreationDate = DateTime.Now;
+            Ativo = true;
         }
 
-        public int UserID { get; set; }
+        public int? UserID { get; set; }
 
         public string Login { get; set; }
 
@@ -31,14 +33,14 @@ namespace Warn.Domain.Entities
 
         public string Email { get; set; }
 
-        public int Phone { get; set; }
+        public int? Phone { get; set; }
 
         public bool Ativo { get; set; }
 
         //[Column(TypeName = "date")]
         public DateTime CreationDate { get; set; }
 
-        public int ProfileID { get; set; }
+        public int? ProfileID { get; set; }
 
         public virtual ICollection<Subscribed> Subscribed { get; set; }
 

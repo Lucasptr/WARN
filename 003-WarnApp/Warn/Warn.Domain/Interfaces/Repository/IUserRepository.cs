@@ -10,7 +10,7 @@ namespace Warn.Domain.Interfaces.Repository
     public interface IUserRepository : IDisposable
     {
         void Register(User user);
-        User Authenticate(string login, string password);
+        User Authenticate(string login);
         User GetUser(string login);
     }
 }

@@ -3,3 +3,8 @@ C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Sha
 C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.SharedKernel\bin\Debug\Warn.SharedKernel.pdb
 C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.SharedKernel\obj\Debug\Warn.SharedKernel.dll
 C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.SharedKernel\obj\Debug\Warn.SharedKernel.pdb
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.SharedKernel\bin\Debug\Warn.SharedKernel.dll
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.SharedKernel\bin\Debug\Warn.SharedKernel.pdb
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.SharedKernel\obj\Debug\Warn.SharedKernel.csprojResolveAssemblyReference.cache
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.SharedKernel\obj\Debug\Warn.SharedKernel.dll
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.SharedKernel\obj\Debug\Warn.SharedKernel.pdb

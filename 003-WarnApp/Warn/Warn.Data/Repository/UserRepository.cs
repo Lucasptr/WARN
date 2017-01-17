@@ -18,9 +18,9 @@ namespace Warn.Data.Repository
         {
             _context = context;
         }
-        public User Authenticate(string login, string password)
+        public User Authenticate(string login)
         {
-            return _context.User.Include(x => x.Profile).FirstOrDefault(x => x.Login.ToUpper() == login.ToUpper() && x.Password == password);            
+            return _context.User.Include(x => x.Profile).FirstOrDefault(x => x.Login.ToUpper() == login.ToUpper());            
         }
 
         public void Register(User user)

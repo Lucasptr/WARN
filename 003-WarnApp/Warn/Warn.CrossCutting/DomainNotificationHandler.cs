@@ -35,7 +35,7 @@ namespace Warn.CrossCutting
 
         public void Dispose()
         {
-            this._notifications = new List<DomainNotification>();
+            _notifications = new List<DomainNotification>();
         }
     }
 }

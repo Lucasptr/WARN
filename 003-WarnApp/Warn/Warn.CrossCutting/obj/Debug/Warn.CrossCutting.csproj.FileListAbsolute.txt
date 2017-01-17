@@ -44,3 +44,5 @@ C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Cro
 C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.CrossCutting\obj\Debug\Warn.CrossCutting.pdb
 C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.CrossCutting\bin\Debug\Warn.SharedKernel.dll
 C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.CrossCutting\bin\Debug\Warn.SharedKernel.pdb
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.CrossCutting\bin\Debug\Warn.SharedKernel.dll
+C:\Users\jock_\OneDrive\Documentos\DiretorioGitHub\WARN\003-WarnApp\Warn\Warn.CrossCutting\bin\Debug\Warn.SharedKernel.pdb

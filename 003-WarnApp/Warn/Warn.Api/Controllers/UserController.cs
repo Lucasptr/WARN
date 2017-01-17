@@ -24,10 +24,9 @@ namespace Warn.Api.Controllers
         [Authorize(Roles = "Transmissor")]
         public Task<HttpResponseMessage> GetUser(string login)
         {
-            var result = new JsonResult<User>();
-            result.Src = _userService.GetUser(login);
+            var user = _userService.GetUser(login);
 
-            return CreateResponse(HttpStatusCode.OK, result);
+            return CreateResponse(HttpStatusCode.OK, user);
         }
 
         [HttpPost]
@@ -40,8 +39,8 @@ namespace Warn.Api.Controllers
                 password: (string)body.password,
                 name: (string)body.name,
                 email: (string)body.email,
-                phone: (int)body.phone,
-                profile: (int)body.profile
+                phone: (int?)body.phone,
+                profile: (int?)body.profile
 
             );
 

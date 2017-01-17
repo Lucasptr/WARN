@@ -15,9 +15,9 @@ namespace Warn.SharedKernel.Events
 
         public DomainNotification(string key, string value)
         {
-            this.Key = key;
-            this.Value = value;
-            this.DateOccurred = DateTime.Now;
+            Key = key;
+            Value = value;
+            DateOccurred = DateTime.Now;
         }
     }
 

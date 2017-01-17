@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
+using Warn.Api.Models;
 using Warn.SharedKernel;
 using Warn.SharedKernel.Events;
 
@@ -23,11 +24,19 @@ namespace Warn.Api.Controllers
         }
         public Task<HttpResponseMessage> CreateResponse(HttpStatusCode code, object result)
         {
+            var jsonResult = new JsonResult<object>();
+            jsonResult.Src = result;
+
             if (Notifications.HasNotifications())
-                ResponseMessage = Request.CreateResponse(HttpStatusCode.BadRequest, new { errors = Notifications.Notify() });
+            {
+                jsonResult.Errors = Notifications.Notify();
+                ResponseMessage = Request.CreateResponse(HttpStatusCode.BadRequest, jsonResult);
+                // Request.CreateResponse(HttpStatusCode.BadRequest, new { errors = Notifications.Notify() });
+            }
             else
                 ResponseMessage = Request.CreateResponse(code, result);
 
+            Notifications.Dispose();
             return Task.FromResult<HttpResponseMessage>(ResponseMessage);
         }
     }
