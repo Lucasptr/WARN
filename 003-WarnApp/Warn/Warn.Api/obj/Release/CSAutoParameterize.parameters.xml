@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="connWarn-Web.config Connection String" description="connWarn Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:warndbserver.database.windows.net,1433;Initial Catalog=warndb;Persist Security Info=False;User ID=warnadmin;Password=Socao2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\joao\.michnik\\Documents\\GitHubDirectories\\WARN\\003-WarnApp\\Warn\\Warn\.Api\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='connWarn']/@connectionString" />
+  </parameter>
+</parameters>

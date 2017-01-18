@@ -1,0 +1,14 @@
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Release\Warn.Data.dll.config
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Release\Warn.Data.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Release\Warn.Data.pdb
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Release\EntityFramework.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Release\Warn.Domain.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Release\Warn.SharedKernel.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Release\Warn.Domain.pdb
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Release\EntityFramework.xml
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\bin\Release\Warn.SharedKernel.pdb
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\obj\Release\Warn.Data.csprojResolveAssemblyReference.cache
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\obj\Release\Warn.Data.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Data\obj\Release\Warn.Data.pdb

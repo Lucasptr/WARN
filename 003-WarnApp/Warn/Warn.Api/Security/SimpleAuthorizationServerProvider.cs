@@ -30,6 +30,8 @@ namespace Warn.Api.Security
 
         public override async Task GrantResourceOwnerCredentials(OAuthGrantResourceOwnerCredentialsContext context)
         {
+            try
+            {
             context.OwinContext.Response.Headers.Add("Access-Control-Allow-Origin", new[] { "*" });
 
             var user = _userService.Authenticate(context.UserName, context.Password);
@@ -44,6 +46,11 @@ namespace Warn.Api.Security
             identity.AddClaim(new Claim(ClaimTypes.Role, user.Profile.Name));
 
             context.Validated(identity);
+            }
+            catch
+            {
+                context.SetError("invalid_request", "A requisição está incorreta.");
+            }
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Domain\bin\Release\Warn.Domain.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Domain\bin\Release\Warn.Domain.pdb
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Domain\bin\Release\Warn.SharedKernel.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Domain\bin\Release\Warn.SharedKernel.pdb
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Domain\obj\Release\Warn.Domain.csprojResolveAssemblyReference.cache
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Domain\obj\Release\Warn.Domain.dll
+C:\Users\joao.michnik\Documents\GitHubDirectories\WARN\003-WarnApp\Warn\Warn.Domain\obj\Release\Warn.Domain.pdb

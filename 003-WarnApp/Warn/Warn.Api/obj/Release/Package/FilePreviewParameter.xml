@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="warn" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\joao\.michnik\\Documents\\GitHubDirectories\\WARN\\003-WarnApp\\Warn\\Warn\.Api\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\joao\.michnik\\Documents\\GitHubDirectories\\WARN\\003-WarnApp\\Warn\\Warn\.Api\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="connWarn-Web.config Connection String" description="" value="Data Source=warndbserver.database.windows.net;Initial Catalog=warndb;User ID=warnadmin;Password=Socao2017" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\joao\.michnik\\Documents\\GitHubDirectories\\WARN\\003-WarnApp\\Warn\\Warn\.Api\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='connWarn']/@connectionString" />
+  </parameter>
+</parameters>
