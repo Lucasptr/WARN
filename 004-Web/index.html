@@ -1,23 +1,246 @@
-<!DOCTYPE html>
-<html ng-app="WarnClient">
-<head>
-  <meta charset="utf-8">
-  <title>Warn!</title>
-  <link rel="stylesheet" href="lib/bootstrap.min.css">
-  <link rel="stylesheet" href="Fonts/font-awesome.min.css">
-  <link rel="stylesheet" href="lib/AdminLTE.min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="hold-transition login-page">
-  <div ng-view></div>
-</body>
-<script src="Lib/angular.min.js" charset="utf-8"></script>
-<script src="Lib/lodash.min.js" charset="utf-8"></script>
-<script src="Lib/moment.min.js" charset="utf-8"></script>
-<script src="lib/angular-route.min.js" charset="utf-8"></script>
-<script src="lib/angular-locale_pt-br.js" charset="utf-8"></script>
-<script src="js/app.js" charset="utf-8"></script>
-<script src="js/Config/routeConfig.js" charset="utf-8"></script>
-<script src="js/Controllers/loginController.js" charset="utf-8"></script>
+	<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+		<link rel="icon" type="image/png" href="assets/img/favicon.png">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-</html>
+		<title>Warn</title>
+
+		<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+		<!--     Fonts and icons     -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+		<link href="https://fonts.googleapis.com/css?family=Exo+2|Quicksand|Raleway" rel="stylesheet">
+
+		<!-- CSS Files -->
+	    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="assets/css/material-kit.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="assets\css\demo.css">
+		<link href="css/warn.css" rel="stylesheet" />
+
+	</head>
+
+	<body class="index-page">
+	<!-- Navbar -->
+	<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+		<div class="container">
+	        <div class="navbar-header">
+		    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
+		        	<span class="sr-only">Toggle navigation</span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		    	</button>
+		    	<a href="#">
+		        	<div class="logo-container1">
+		                <div class="logo-warn">
+		                    <img src="img/logo.png" alt="Warn Logo" rel="tooltip" title="" data-placement="bottom" data-html="true">
+		                </div>
+					</div>
+		      	</a>
+		    </div>
+
+		    <div class="collapse navbar-collapse" id="navigation-index">
+		    	<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#" target="_blank">
+							 Entrar
+						</a>
+					</li>
+					<li>
+							<span class="between-login">ou</span>
+					</li>
+
+					<li>
+						<a href="#" class="register-login" target="_blank">
+							 Cadastrar
+						</a>
+					</li>
+
+				</ul>
+		    </div>
+		</div>
+	</nav>
+	<!-- End Navbar -->
+
+	<div class="wrapper">
+		<div class="header header-filter" style="background-image: url('img/pattern.png');">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="brand">
+							<h1>Comunique-se de forma facil.</h1>
+							<h3></h3>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="main main-raised">
+			<div class="section section-basic">
+		    	<div class="container">
+			    	<div class="section text-center section-landing">
+		                <div class="row">
+		                    <div class="col-md-8 col-md-offset-2">
+		                        <h2 class="title">Conheça o aplicativo</h2>
+		                        <h5 class="description">Para facilitar a comunicação entre um transmissor e um grupo de receptores previamente selecionados, estamos propondo um sistema que visa a rápida troca de mensagens, com criação de grupos e o envio de informações.</h5>
+		                    </div>
+		                </div>
+
+						<div class="features">
+							<div class="row">
+			                    <div class="col-md-4">
+									<div class="info">
+										<div class="icon icon-primary">
+											<i class="material-icons">chat</i>
+										</div>
+										<h4 class="info-title">Crie grupos!</h4>
+										<p>Criação de um grupo através de um usuário com um perfil específico chamado Transmissor, usuários que apenas recebem as mensagens são chamados de Receptores.</p>
+									</div>
+			                    </div>
+			                    <div class="col-md-4">
+									<div class="info">
+										<div class="icon icon-success">
+											<i class="material-icons">verified_user</i>
+										</div>
+										<h4 class="info-title">Chame seus amigos!</h4>
+										<p>Associar usuários ao grupo, cadastrando o e-mail( ou número do celular) dos participantes ou associar aos usuários já cadastrados.</p>
+									</div>
+			                    </div>
+			                    <div class="col-md-4">
+									<div class="info">
+										<div class="icon icon-danger">
+											<i class="material-icons">fingerprint</i>
+										</div>
+										<h4 class="info-title">Envie mensagens, convites e muito mais!</h4>
+										<p>Envio da mensagem através do aplicativo Web ou Mobile e as mensagens se direcionam ao aplicativos mobiles com pushs</p>
+									</div>
+			                    </div>
+			                </div>
+						</div>
+		            </div>
+
+		        	<div class="section text-center">
+		                <h2 class="title">Nosso time!</h2>
+
+						<div class="team">
+							<div class="row">
+								<div class="col-md-4">
+				                    <div class="team-player">
+				                        <img src="assets/img/avatar.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+				                        <h4 class="title">Fly <br />
+											<small class="text-muted">Modelo</small>
+										</h4>
+				                        <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+										<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
+										<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-instagram"></i></a>
+										<a href="#pablo" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-facebook-square"></i></a>
+				                    </div>
+				                </div>
+				                <div class="col-md-4">
+				                    <div class="team-player">
+				                        <img src="assets/img/boi.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+				                        <h4 class="title">Vinny Boi<br />
+											<small class="text-muted">Designer</small>
+										</h4>
+				                        <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+										<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
+										<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-linkedin"></i></a>
+				                    </div>
+				                </div>
+				                <div class="col-md-4">
+				                    <div class="team-player">
+				                        <img src="img/lucas.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+				                        <h4 class="title">Lucas Prates<br />
+											<small class="text-muted">Sênior dos Sêniors</small>
+										</h4>
+				                        <p>You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+										<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-google-plus"></i></a>
+										<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-youtube-play"></i></a>
+										<a href="#pablo" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-twitter"></i></a>
+				                    </div>
+				                </div>
+							</div>
+						</div>
+
+		            </div>
+
+		    	</div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		    <div class="container">
+		        <nav class="pull-left">
+		            <ul>
+						<li>
+							<a href="http://www.creative-tim.com">
+								Creative Tim
+							</a>
+						</li>
+						<li>
+							<a href="http://presentation.creative-tim.com">
+							   About Us
+							</a>
+						</li>
+						<li>
+							<a href="http://blog.creative-tim.com">
+							   Blog
+							</a>
+						</li>
+						<li>
+							<a href="http://www.creative-tim.com/license">
+								Licenses
+							</a>
+						</li>
+		            </ul>
+		        </nav>
+		        <div class="copyright pull-right">
+		            &copy; 2016, made with <i class="material-icons">favorite</i> by Creative Tim for a better web.
+		        </div>
+		    </div>
+		</footer>
+
+
+	</body>
+
+		<!--   Core JS Files   -->
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="assets/js/material.min.js"></script>
+
+		<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+		<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+		<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+		<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+		<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+		<script src="assets/js/material-kit.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+
+			$().ready(function(){
+				// the body of this function is in assets/material-kit.js
+				materialKit.initSliders();
+	            window_width = $(window).width();
+
+	            if (window_width >= 992){
+	                big_image = $('.wrapper > .header');
+
+					$(window).on('scroll', materialKitDemo.checkScrollForParallax);
+				}
+
+			});
+		</script>
+		</html>
