@@ -1,0 +1,25 @@
+{
+  "name": "WarnWebApp",
+  "homepage": "https://github.com/Lucasptr/WARN",
+  "authors": [
+    "Vinícius Campos <vpcampos@outlook.com>",
+    "Lucas Prates <pratesdtr@gmail.com>",
+    "João Vitor<jvmichnik@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.2",
+    "angular-ui-router": "ui-router#^0.4.2"
+  }
+}
