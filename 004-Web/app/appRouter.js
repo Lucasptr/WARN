@@ -1,3 +1,3 @@
-angular.module('appRouter', ['externalModule']).config(function($urlRouterProvider) {
+angular.module('appRouter', ['externalModule', 'userModule']).config(function($urlRouterProvider) {
   $urlRouterProvider.otherwise('/');
 });
